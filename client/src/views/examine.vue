@@ -69,6 +69,8 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
     *{
         list-style: none;
         padding:0;
@@ -88,29 +90,29 @@ export default {
     }
     .nav{
         width:100%;
-        height:80px;
+        height:rem(80px);
         background:#096241;
-        border-radius: 0 0 50px 50px;
+        border-radius: 0 0 rem(50px) rem(50px);
     }
     .cont{
         width:100%;
-        height:300px;
+        height:rem(300px);
         .person{
             width:90%;
-            height:100px;
+            height:rem(100px);
             margin-left:5%;
             // position:absolute;
             // left:0;
             // top:90px;
-            margin-top:-40px;
+            margin-top:rem(-40px);
             border:1px solid #ccc;
-            border-radius: 10px;
+            border-radius: rem(10px);
             background:white;
             font-size: 14px;
             p{
                 width:40%;
-                height:50px;
-                line-height: 50px;
+                height:rem(50px);
+                line-height: rem(50px);
                 margin:0 5%;
                 float: left;
                 display: flex;
@@ -125,15 +127,15 @@ export default {
             height:auto;
             .item{
                 width:90%;
-                height:100px;
+                height:rem(100px);
                 margin:20px 5%;
                 .times{
                     width:30%;
                     float: left;
                     p{
                         width:100%;
-                        height:30px;
-                        line-height: 30px;
+                        height:rem(30px);
+                        line-height: rem(30px);
                         font-size: 14px;
                         color:gray;
                     }
@@ -147,7 +149,6 @@ export default {
                         img{
                             width:80%;
                             height:80%;
-                          
                         }
                     }
                     dd{
@@ -155,14 +156,14 @@ export default {
                         font-size: 14px;
                         p{
                             width:100%;
-                            height:30px;
-                            line-height: 30px;
+                            height:rem(30px);
+                            line-height: rem(30px);
                             color:gray;
                         }
                         .yijian{
                             width:100%;
-                            height:30px;
-                            line-height: 30px;
+                            height:rem(30px);
+                            line-height: rem(30px);
                             background:#ccc;
                             color:gray;
                         }

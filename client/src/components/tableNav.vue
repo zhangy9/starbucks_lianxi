@@ -36,32 +36,34 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-        .tabs-item{
-            width:100%;
-            height:80px;
-            p{
-                width:30%;
-                height:30px;
-                margin-top:25px;
-                float:left;
-                font-size: 16px;
-                text-align: center;
-                line-height: 30px;
-                border:1px solid #096241;
-                background:white;
-                color:#096241; 
-            }
-            p:nth-child(1){
-                border-radius: 20px 0 0 20px;
-                margin-left:20%;
-            }
-            p:nth-child(2){
-                border-radius:  0 20px 20px 0 ;
-            }
-            .active{
-                background:#096241;
-                color:white;
-            }
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
+    .tabs-item{
+        width:100%;
+        height:rem(80px);
+        p{
+            width:30%;
+            height:rem(30px);
+            margin-top:rem(25px);
+            float:left;
+            font-size: 16px;
+            text-align: center;
+            line-height: rem(30px);
+            border:1px solid #096241;
+            background:white;
+            color:#096241; 
         }
+        p:nth-child(1){
+            border-radius: 20px 0 0 20px;
+            margin-left:20%;
+        }
+        p:nth-child(2){
+            border-radius:  0 20px 20px 0 ;
+        }
+        .active{
+            background:#096241;
+            color:white;
+        }
+    }
 
 </style>

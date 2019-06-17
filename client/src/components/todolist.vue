@@ -64,6 +64,8 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
     // .head{
     //     background:white;
     //     color:black;
@@ -75,13 +77,13 @@ export default {
     }
     .item-con{
         width:100%;
-        height:120px;
+        height:rem(120px);
         margin-bottom:10px;
         background: white;
     }
     .item{
         width:90%;
-        height:120px;
+        height:rem(120px);
         margin-left:5%;
         font-size:14px;
        
@@ -90,8 +92,8 @@ export default {
         }
         .item-head{
             width:100%;
-            height:40px;
-            line-height: 40px;
+            height:rem(40px);
+            line-height: rem(40px);
             display: flex;
             justify-content: space-between;
             .iconfont{
@@ -101,8 +103,8 @@ export default {
         }
         .item-person{
             width:100%;
-            height:40px;
-            line-height: 40px;
+            height:rem(40px);
+            line-height: rem(40px);
             display: flex;
             p{
                 flex:4;
@@ -115,8 +117,8 @@ export default {
         }
         .item-date{
              width:100%;
-            height:40px;
-            line-height: 40px;
+            height:rem(40px);
+            line-height: rem(40px);
             display: flex;
             p{
                 flex:4;

@@ -59,6 +59,8 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
     .tabs{
         width:100%;
         height:100px;
@@ -80,7 +82,7 @@ export default {
             }
             dd{
                 width:100%;
-                height:30px;
+                height:rem(30px);
                 font-size: 16px;
                 text-align: center;
                 

@@ -40,11 +40,13 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
     *{
         list-style: none;
         padding:0;
         margin:0;
-        font-size: 14px;
+        
     }
     html,body,#app,.search{
         width:100%;
@@ -56,32 +58,34 @@ export default {
     }
     .search-head{
         width:90%;
-        height:45px;
-        line-height: 45px;
+        height:rem(45px);
+        line-height: rem(45px);
         margin-left:5%;
+        font-size: 14px;
         input{
             display: inline-block;
             width:80%;
-            height:25px;
+            height:rem(25px);
             border:1px solid #ccc;
         }
         span{
             display: inline-block;
             width:18%;
-            height:25px;
+            height:rem(25px);
             text-align: center;
             color:#096241;
         }
     }
     .text{
         width:80%;
-        height:150px;
+        height:rem(150px);
         margin-left:10%;
-        margin-top:50px;
+        margin-top:rem(50px);
+        font-size: 14px;
         p{
             width:100%;
-            height:40px;
-            line-height: 40px;
+            height:rem(40px);
+            line-height: rem(40px);
             display: flex;
             justify-content:space-around;
         }

@@ -61,24 +61,26 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
     .cont{
         width:100%;
         height:100%;
         .inp,.pwd{
             width:90%;
-            height:45px;
+            height:rem(45px);
             margin-left:5%;
             font-size: 14px;
-            margin-bottom:30px;
+            margin-bottom:rem(30px);
             border-bottom:1px solid #ccc;
             p{
                 width:20%;
-                height:45px;  
+                height:rem(45px);  
                 display: inline-block;
             }
             input{
                 width:80%;
-                height:45px;
+                height:rem(45px);
                 border:0;
                 outline: none;
                 display: inline-block;
@@ -86,12 +88,12 @@ export default {
         }
         button{
             width:80%;
-            height:40px;
+            height:rem(40px);
             background:green;
             color:white;
             border-radius: 20px;
             text-align: center;
-            line-height: 40px;
+            line-height: rem(40px);
             border:1px solid green;
             outline:none;
             margin-left:10%;

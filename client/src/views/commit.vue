@@ -188,6 +188,8 @@ export default {
 </script>
 <style scoped lang="scss">
     @import "../static/fonts/iconfont.css";
+    @import '../static/js/_minix.scss';
+    @import '../static/js/common.scss';
     *{
         list-style: none;
         padding:0;
@@ -210,7 +212,7 @@ export default {
         .person{
             width:100%;
             height:180px;
-            border-radius: 0 0 50px 50px;
+            border-radius: 0 0 rem(50px) rem(50px);
             background:#096241;
             dl{
                 width:90%;
@@ -219,7 +221,7 @@ export default {
                 display: flex;
                 dt{
                     flex:2;
-                    margin-top:30px;
+                    margin-top:rem(30px);
                     img{
                         width:80%;
                         height:40%;
@@ -229,12 +231,12 @@ export default {
                 }
                 dd{
                     flex:8;
-                    margin-top:30px;
+                    margin-top:rem(30px);
                     p{
                         width:95%;
-                        height:30px;
+                        height:rem(30px);
                         margin-left:5%;
-                        line-height: 30px;
+                        line-height: rem(30px);
                         color:white;
                         font-size:14px;
                         .bef{
@@ -247,31 +249,31 @@ export default {
         }
         .letter{
             width:90%;
-            height:260px;
+            height:rem(260px);
             background: white;
-            border-radius: 5px;
-            margin-top:-50px;
+            border-radius: rem(5px);
+            margin-top:rem(-50px);
             margin-left:5%;
             font-size:14px;
             .text{
             width:100%;
-            height:40px;
-            border-bottom:1px solid #ccc;
+            height:rem(40px);
+            border-bottom:rem(1px) solid #ccc;
             p{
                 width:95%;
-                height:40px;
+                height:rem(40px);
                 margin-left:5%;
-                line-height: 40px;
+                line-height: rem(40px);
             }
             }
             .letter-cont{
                 width:90%;
-                height:220px;
+                height:rem(220px);
                 margin-left:5%;
                 p{
                     width:100%;
-                    height:42px;
-                    line-height: 42px;
+                    height:rem(42px);
+                    line-height: rem(42px);
                     display: flex;
                     justify-content: space-between;
                     span:nth-child(1){
@@ -285,21 +287,21 @@ export default {
         }
         .reason{
             width:90%;
-            height:120px;
+            height:rem(120px);
             background:white;
-            border-radius: 5px;
-            margin-top:20px;
+            border-radius: rem(5px);
+            margin-top:rem(20px);
             margin-left:5%;
             font-size:14px;
             .text{
             width:100%;
-            height:40px;
-            border-bottom:1px solid #ccc;
+            height:rem(40px);
+            border-bottom:rem(1px) solid #ccc;
             p{
                 width:95%;
-                height:40px;
+                height:rem(40px);
                 margin-left:5%;
-                line-height: 40px;
+                line-height: rem(40px);
                 i{
                     color:red;
                 }
@@ -307,38 +309,38 @@ export default {
             }
             .reason-cont{
                 width:90%;
-                height:80px;
+                height:rem(80px);
                 margin-left:5%;
                 p{
                     width:100%;
-                    height:30px;
-                    line-height: 30px;
+                    height:rem(30px);
+                    line-height: rem(30px);
                 }
             }
         }
         .adjunct{
             width:90%;
-            height:140px;
+            height:rem(140px);
             background: white;
-            border-radius: 5px;
-            margin-top:20px;
+            border-radius: rem(5px);
+            margin-top:rem(20px);
             margin-left:5%;
             font-size: 14px;
             .text{
                 width:100%;
-                height:60px;
-                line-height: 60px;
+                height:rem(60px);
+                line-height: rem(60px);
                 border-bottom:1px solid #ccc;
                
                 p{
                     width:90%;
-                    height:60px;
+                    height:rem(60px);
                     margin-left:5%;
                     display: flex;
                     justify-content: space-between;
                     i{
                         color:yellow;
-                        margin-left:5px;
+                        margin-left:rem(5px);
                     }
                     span:nth-child(2){
                         color:#bbb;
@@ -348,13 +350,13 @@ export default {
             }
             .adjunct-cont{
                 width:100%;
-                height:80px;
+                height:rem(80px);
                  ul{
                     width:100%;
-                    height:80px;
+                    height:rem(80px);
                     li{
                     width:30%;
-                    height:80px;
+                    height:rem(80px);
                     margin:0 1%;
                     float:left;
                     position: relative;
@@ -365,10 +367,10 @@ export default {
                         }
                         .fileAdd{
                             width:100%;
-                            height:80px;
+                            height:rem(80px);
                             border:1px solid #ccc;
                             text-align: center;
-                            line-height: 80px;
+                            line-height: rem(80px);
                             font-size:25px;
                             color:orange;
                         }
@@ -388,10 +390,10 @@ export default {
     }
     .foot{
         width:100%;
-        height:45px;
+        height:rem(45px);
         // display: flex;
         text-align: center;
-        line-height:45px;   
+        line-height:rem(45px);   
         button{
             float:left;
             height:100%;

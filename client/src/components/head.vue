@@ -46,16 +46,16 @@ export default {
         justify-content: space-between;
         align-items: center;
         .back{
-            padding-left:20px;
+            padding-left:rem(20px);
         }
         .icon{
-            padding-right:20px;
+            padding-right:rem(20px);
             .iconfont{
                 padding:0 5px;
             }
         }
         div{
-            width:20px;
+            width:rem(20px);
         }
     }
 </style>
